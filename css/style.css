@@ -365,3 +365,122 @@ section.testimonials{
     color:#ddd;
 }
 
+
+/* --------------media queries---------------- */
+@media screen and (max-width:450px)
+{
+    header{
+        padding:0 10px;
+    }
+    .navbar{
+        display: block;
+    }
+    .navbar .logo{
+        display: block;
+        margin-bottom: 20px;
+        font-size: 16px;
+        text-align: center;
+        color:#e63946;
+    }
+    .navbar .menu{
+        margin-bottom: 25px;
+        display: block;
+        text-align: center;
+    }
+    .navbar .menu-item a{
+        display: block;
+        margin-top: 8px;
+    }
+}
+    
+@media screen and (max-width:550px) {
+    .testimonials .row{
+        display: block;
+        width: 100%;
+    }
+    .testimonials .col{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:750px)
+{
+    
+    header{
+        padding:0 10px;
+    }
+    .navbar .logo{
+        font-size: 16px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu-item{
+        display: block;
+        text-align: right;
+    }
+    .navbar .menu-item a{
+        display: inline-block;
+        margin:0 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen  and (max-width:750px){
+    .featured-section{
+        height: fit-content;
+        padding:25px 40px;
+    }
+    .row{
+        display: block;
+    }
+
+    .featured-section .featured-content-heading{
+        font-size: 18px;
+    }
+    .featured-section p{
+        font-size: 14px;
+    }
+    .contact-container{
+        display: block;
+        padding:15px 50px;
+    }
+    .contact-box , .contact-form{
+        width: 100%;
+    }
+    .contact-box h3{
+        font-size: 16px;
+    }
+    .contact-box > p{
+        font-size: 14px;
+    }
+    .contact-box div p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:1060px)
+{
+    .featured-section{
+        height: fit-content;
+    }
+    .featured-section .featured-content-heading{
+        font-size: 18px;
+    }
+    .featured-section p{
+        font-size: 14px;
+    }
+    .contact-box h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .contact-box > p{
+        font-size: 14px;
+    }
+    .contact-box div p{
+        font-size: 14px;
+    }
+}
+
+
